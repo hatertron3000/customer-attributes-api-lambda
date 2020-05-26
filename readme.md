@@ -1,4 +1,4 @@
-# BigCommerce Current Customer JWT API Gateway Authorizer
+# BigCommerce Customer Attributes API Lambda
 
 Use `npm run build` to create a [lambda deployment package](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html) for a custom [AWS Serverless Express](https://github.com/awslabs/aws-serverless-express) Lambda for use with an [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) configured to use the [BigCommerce Current Customer JWT API Gateway Authorizer](https://github.com/hatertron3000/bigcommerce-current-customer-jwt-api-gateway-authorizer).
 
