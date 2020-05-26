@@ -1,0 +1,19 @@
+{
+  "name": "customer-attributes-api",
+  "version": "1.0.0",
+  "description": "A serverless express Lambda that creates a CRUD API for authorized customers to read and modify attribute values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install;zip -r deployment`date +%s`.zip ."
+  },
+  "author": "Patrick Puente",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
